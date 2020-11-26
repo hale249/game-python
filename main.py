@@ -30,44 +30,44 @@ NUM_HEIGHT = 40
 
 TIME_FALL = 8
 
-IMG_BG = pygame.image.load('images/tetris.PNG')
-IMG_Z = pygame.image.load('img/shape/Z.png')
-IMG_Z_ = pygame.image.load('img/shape/Z_.png')
-IMG_L = pygame.image.load('img/shape/L.png')
-IMG_L_ = pygame.image.load('img/shape/L_.png')
-IMG_T = pygame.image.load('img/shape/T.png')
-IMG_line = pygame.image.load('img/shape/line.png')
-IMG_square = pygame.image.load('img/shape/square.png')
+IMG_BG = pygame.image.load('images/game.png')
+IMG_Z = pygame.image.load('images/shape/Z.png')
+IMG_Z_ = pygame.image.load('images/shape/Z_.png')
+IMG_L = pygame.image.load('images/shape/L.png')
+IMG_L_ = pygame.image.load('images/shape/L_.png')
+IMG_T = pygame.image.load('images/shape/T.png')
+IMG_line = pygame.image.load('images/shape/line.png')
+IMG_square = pygame.image.load('images/shape/square.png')
 
-IMG_0 = pygame.image.load('img/num/0.png')
-IMG_1 = pygame.image.load('img/num/1.png')
-IMG_2 = pygame.image.load('img/num/2.png')
-IMG_3 = pygame.image.load('img/num/3.png')
-IMG_4 = pygame.image.load('img/num/4.png')
-IMG_5 = pygame.image.load('img/num/5.png')
-IMG_6 = pygame.image.load('img/num/6.png')
-IMG_7 = pygame.image.load('img/num/7.png')
-IMG_8 = pygame.image.load('img/num/8.png')
-IMG_9 = pygame.image.load('img/num/9.png')
+IMG_0 = pygame.image.load('images/num/0.png')
+IMG_1 = pygame.image.load('images/num/1.png')
+IMG_2 = pygame.image.load('images/num/2.png')
+IMG_3 = pygame.image.load('images/num/3.png')
+IMG_4 = pygame.image.load('images/num/4.png')
+IMG_5 = pygame.image.load('images/num/5.png')
+IMG_6 = pygame.image.load('images/num/6.png')
+IMG_7 = pygame.image.load('images/num/7.png')
+IMG_8 = pygame.image.load('images/num/8.png')
+IMG_9 = pygame.image.load('images/num/9.png')
 
 BUTTON_WIDTH = 180
 BUTTON_HEIGHT = 60
 X_BUTTON = int(X_MARGIN + (BOARD_WIDTH - BUTTON_WIDTH) / 2)
-IMG_REPLAY = pygame.image.load('img/button/replay.png')
-IMG_REPLAYHIGHLIGHT = pygame.image.load('img/button/replayHighlight.png')
-IMG_BACK = pygame.image.load('img/button/back.png')
-IMG_BACKHIGHLIGHT = pygame.image.load('img/button/backHighlight.png')
-IMG_PLAY = pygame.image.load('img/button/play.png')
-IMG_PLAYHIGHLIGHT = pygame.image.load('img/button/playHighlight.png')
-IMG_QUIT = pygame.image.load('img/button/quit.png')
-IMG_QUITHIGH = pygame.image.load('img/button/quitHighlight.png')
+IMG_REPLAY = pygame.image.load('images/button/replay.png')
+IMG_REPLAYHIGHLIGHT = pygame.image.load('images/button/replayHighlight.png')
+IMG_BACK = pygame.image.load('images/button/back.png')
+IMG_BACKHIGHLIGHT = pygame.image.load('images/button/backHighlight.png')
+IMG_PLAY = pygame.image.load('images/button/play.png')
+IMG_PLAYHIGHLIGHT = pygame.image.load('images/button/playHighlight.png')
+IMG_QUIT = pygame.image.load('images/button/quit.png')
+IMG_QUITHIGH = pygame.image.load('images/button/quitHighlight.png')
 
 HEADING_WIDTH = 250
 HEADING_HEIGHT = 120
 X_HEADING = int(X_MARGIN + (BOARD_WIDTH - HEADING_WIDTH) / 2)
 Y_HEADING = 140
-IMG_GAMEOVER = pygame.image.load('img/heading/gameover.png')
-IMG_TETRIS = pygame.image.load('img/heading/tetris.png')
+IMG_GAMEOVER = pygame.image.load('images/heading/gameover.png')
+IMG_TETRIS = pygame.image.load('images/heading/tetris.png')
 
 ###### HÀM DÙNG ĐỂ RANDOM MỘT SỐ TỪ 1 ĐẾN 7. NÓ CHẠY TỐT! ĐỪNG ĐỘNG VÀO!!! ########
 VALUE_RANDOM = [1, 2, 3, 4, 5, 6, 7]  # Cái này dùng cho hàm rand_1_to_7
