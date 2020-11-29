@@ -69,10 +69,9 @@ Y_HEADING = 140
 IMG_GAMEOVER = pygame.image.load('images/heading/gameover.png')
 IMG_TETRIS = pygame.image.load('images/heading/tetris.png')
 
-###### HÀM DÙNG ĐỂ RANDOM MỘT SỐ TỪ 1 ĐẾN 7. NÓ CHẠY TỐT! ĐỪNG ĐỘNG VÀO!!! ########
+# HÀM DÙNG ĐỂ RANDOM MỘT SỐ TỪ 1 ĐẾN 7. NÓ CHẠY TỐT! ĐỪNG ĐỘNG VÀO!!!
 VALUE_RANDOM = [1, 2, 3, 4, 5, 6, 7]  # Cái này dùng cho hàm rand_1_to_7
 random.shuffle(VALUE_RANDOM)
-
 
 def rand_1_to_7():  # Hàm này trả về một số random từ 1 đến 7
     check = []
@@ -90,10 +89,7 @@ def rand_1_to_7():  # Hàm này trả về một số random từ 1 đến 7
             VALUE_RANDOM.insert(0, t)
             return val
 
-
 ####################################################################################
-
-
 def drawSquare(num, pos):  # Vẽ những hình vuông nhỏ
     if num != 0:
         if num == 1:
